@@ -9,7 +9,9 @@ Tên Bài: Chức năng của tầng Transport
 ### 2.Nhiệm vụ của tầng Transport?  
   - **Tầng giao vận chịu trách nhiệm truyền phát đầu cuối end – to – end của toàn bộ thông điệp ( trong khi tầng mạng quan tâm tới việc truyền phát đầu cuối của từng gói tin). Tầng giao vận đảm bảo rằng toàn bộ thông điệp truyền đi là toàn vẹn và đúng thứ tự. Ngoài ra chúng cũng xem xét kiểm soát lỗi , kiểm soát luồng dữ liệu ở cấp độ nguồn – đích.** 
  ----  
- Tên Bài: 
+ Tên Bài:  Hai kiểu kết nối ở Tầng Transport. So sánh hai kiểu kết nối đó. Đặc điểm của các giao thức tương ứng với từng kiểu kết nối.  
+ ----  
+ ### 1. Hai kiểu kết nối ở Tầng Transport.
  ----  
  Tên Bài: Quy trình bắt tay 3 bước (three way - handshake) trong tầng Transport  
  ----  
