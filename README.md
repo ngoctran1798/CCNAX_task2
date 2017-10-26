@@ -23,7 +23,8 @@ Tên Bài: Chức năng của tầng Transport
           - Phải thực hiện các cơ chế điều khiển luồng thích hợp (flow control) để tránh nghẽn xảy ra.  
           ![img](https://www.adminvietnam.org/wp-content/uploads/2016/10/tcp-segment.png)  
   - **phi kết nối (connectionless)**, *ví dụ UDP*  
-      - UDP (User Datagram Protocol) là một giao thức truyền tải connectionless điển hình. Một giao thức connectionless sẽ không thực hiện thao tác xây dựng kết nối trước khi truyền dữ liệu mà thực hiện truyền ngay lập tức khi có dữ liệu cần truyền (gọi là kiểu truyền best effort – truyền tổng lực). Ngoài ra phương thức truyền connectionless cũng không sử dụng các phương pháp đảm bảo độ tin cậy như báo cáo nhận hay điều khiển luồng (flow control). Connectionless không thực hiện các biện pháp đánh số thứ tự cho các đơn vị dữ liệu được truyền…  
+      - UDP (User Datagram Protocol) là một giao thức truyền tải connectionless điển hình.  
+      - Một giao thức connectionless sẽ không thực hiện thao tác xây dựng kết nối trước khi truyền dữ liệu mà thực hiện truyền ngay lập tức khi có dữ liệu cần truyền (gọi là kiểu truyền best effort – truyền tổng lực). Ngoài ra phương thức truyền connectionless cũng không sử dụng các phương pháp đảm bảo độ tin cậy như báo cáo nhận hay điều khiển luồng (flow control). Connectionless không thực hiện các biện pháp đánh số thứ tự cho các đơn vị dữ liệu được truyền…  
        ![img](https://www.adminvietnam.org/wp-content/uploads/2016/10/udp-datagram.png)  
          
 ----  
