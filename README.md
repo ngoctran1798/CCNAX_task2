@@ -43,8 +43,8 @@ Tên Bài: Quy trình bắt tay 3 bước (three way - handshake) trong tầng T
 
 
 -----  
-Trả lời câu hỏi: 
-|Tên                  | Giao Thức                    | Port                 |  
+Trả lời câu hỏi:      
+|Tên                  | Giao Thức                    | Port                 |    
 |---------------------|------------------------------|----------------------|  
 |HTTP                 |TCP                           |80                    |  
 |HTTPs                |TCP                           |443                   |  
