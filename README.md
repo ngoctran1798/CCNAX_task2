@@ -9,16 +9,19 @@ Tên Bài: Chức năng của tầng Transport
 ### 2.Nhiệm vụ của tầng Transport?  
   - **Tầng giao vận chịu trách nhiệm truyền phát đầu cuối end – to – end của toàn bộ thông điệp ( trong khi tầng mạng quan tâm tới việc truyền phát đầu cuối của từng gói tin). Tầng giao vận đảm bảo rằng toàn bộ thông điệp truyền đi là toàn vẹn và đúng thứ tự. Ngoài ra chúng cũng xem xét kiểm soát lỗi , kiểm soát luồng dữ liệu ở cấp độ nguồn – đích.** 
  ----  
+ Tên Bài: 
+ ----  
  Tên Bài: Quy trình bắt tay 3 bước (three way - handshake) trong tầng Transport  
  ----  
  ### 1.Quy trình bắt tay 3 bước (three way - handshake) trong tầng Transport?  
-  - TCP thiết lập kết nối bằng 3 bước bắt tay (3-way handshake)
+  -**TCP thiết lập kết nối bằng 3 bước bắt tay (3-way handshake)**
 
 |sender              |  receiver                     |
 |--------------------|-------------------------------|
 |SYN seq=X---------->|SYN received (step 1)          |
 |SYN received<-------|send ACK X+1 and SYN Y (step 2)|
-|Send ACK Y+1------->| (step 3)                      |
+|Send ACK Y+1------->| (step 3)                      |  
+
 
 
   
