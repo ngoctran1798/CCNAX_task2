@@ -42,6 +42,17 @@ Tên Bài: Quy trình bắt tay 3 bước (three way - handshake) trong tầng T
 |Send ACK Y+1------->| (step 3)                      |  
 
 
+-----  
+Trả lời câu hỏi: 
+|Tên                  | Giao Thức                    | Port                 |
+|---------------------|------------------------------|----------------------|
+|HTTP                 |TCP                           |80                    |
+|HTTPs                |TCP                           |443                   |
+|DNS                  |TCP,UDP                       |53                    |
+|SSH                  |TCP                           |22                    |
+|Telnet               |TCP                           |23                    |
+|FTP                  |TCP                           |21-22                 |
+|SMTP                 |TCP                           |25                    |
 
   
 
