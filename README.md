@@ -12,6 +12,9 @@ Tên Bài: Chức năng của tầng Transport
  Tên Bài:  Hai kiểu kết nối ở Tầng Transport. So sánh hai kiểu kết nối đó. Đặc điểm của các giao thức tương ứng với từng kiểu kết nối.  
  ----  
  ### 1. Hai kiểu kết nối ở Tầng Transport.
+  - Việc truyền thông điệp trực tiếp hay kết nối các ứng dụng tại tầng giao vận có thể được phân loại như sau:
+      - 1. định hướng kết nối (connection-oriented), ví dụ TCP  
+      - 2. phi kết nối (connectionless), ví dụ UDP  
  ----  
  Tên Bài: Quy trình bắt tay 3 bước (three way - handshake) trong tầng Transport  
  ----  
