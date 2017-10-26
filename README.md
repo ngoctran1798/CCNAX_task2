@@ -13,8 +13,8 @@ Tên Bài: Chức năng của tầng Transport
  ----  
  ### 1. Hai kiểu kết nối ở Tầng Transport. So sánh hai kiểu kết nối đó. Đặc điểm của các giao thức tương ứng với từng kiểu kết nối.  
   *Việc truyền thông điệp trực tiếp hay kết nối các ứng dụng tại tầng giao vận có thể được phân loại như sau:*    
-    - **định hướng kết nối (connection-oriented)**,*ví dụ TCP*    
-      - Định hướng kết nối (Connection-oriented) là cách truyền thông cần kết nối 2 thiết bị gửi và nhận trước khi truyền dữ liệu, phương pháp này gọi là dịch vụ mạng đáng tin cậy. Nó đảm bảo dữ liệu sẽ chuyển đến đúng nơi yêu cầu, các dịch vụ hướng kết nối thiết lập các liên kết ảo giữa hai hệ thống gửi và nhận thông qua mạng. 
+   - **định hướng kết nối (connection-oriented)**,*ví dụ TCP*    
+      - Định hướng kết nối (Connection-oriented) là cách truyền thông cần kết nối 2 thiết bị gửi và nhận trước khi truyền dữ liệu, phương pháp này gọi là dịch vụ mạng đáng tin cậy. Nó đảm bảo dữ liệu sẽ chuyển đến đúng nơi yêu cầu, các dịch vụ hướng kết nối thiết lập các liên kết ảo giữa hai hệ thống gửi và nhận thông qua mạng.   
        - **TCP(Tranmission Control Protocol):** là giao thức truyền tải connection-oriented điển hình .  
        - *Một giao thức connection-oriented (hướng kết nối) mang các đặc điểm như sau:*  
           - Phải thực hiện thiết lập kết nối với đầu xa trước khi thực hiện truyền dữ liệu. Tiến trình thiết lập kết nối ở TCP được gọi là tiến trình bắt tay 3 bước (threeway handshake).  
