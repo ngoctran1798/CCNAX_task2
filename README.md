@@ -12,8 +12,8 @@ Tên Bài: Chức năng của tầng Transport
  Tên Bài:  Hai kiểu kết nối ở Tầng Transport. So sánh hai kiểu kết nối đó. Đặc điểm của các giao thức tương ứng với từng kiểu kết nối.  
  ----  
  ### 1. Hai kiểu kết nối ở Tầng Transport. So sánh hai kiểu kết nối đó. Đặc điểm của các giao thức tương ứng với từng kiểu kết nối.  
-  - Việc truyền thông điệp trực tiếp hay kết nối các ứng dụng tại tầng giao vận có thể được phân loại như sau:
-          - **định hướng kết nối (connection-oriented)**,*ví dụ TCP*  
+  *Việc truyền thông điệp trực tiếp hay kết nối các ứng dụng tại tầng giao vận có thể được phân loại như sau:*    
+  - **định hướng kết nối (connection-oriented)**,*ví dụ TCP*    
               - Định hướng kết nối (Connection-oriented) là cách truyền thông cần kết nối 2 thiết bị gửi và nhận trước khi truyền dữ liệu, phương pháp này gọi là dịch vụ mạng đáng tin cậy. Nó đảm bảo dữ liệu sẽ chuyển đến đúng nơi yêu cầu, các dịch vụ hướng kết nối thiết lập các liên kết ảo giữa hai hệ thống gửi và nhận thông qua mạng. 
               - **TCP(Tranmission Control Protocol):** là giao thức truyền tải connection-oriented điển hình .  
               - *Một giao thức connection-oriented (hướng kết nối) mang các đặc điểm như sau:*  
@@ -22,8 +22,8 @@ Tên Bài: Chức năng của tầng Transport
                   - Phải thực hiện cơ chế đánh số thứ tự (sequencing) cho các đơn vị dữ liệu được truyền.  
                   - Phải thực hiện các cơ chế điều khiển luồng thích hợp (flow control) để tránh nghẽn xảy ra.  
           ![img](https://www.adminvietnam.org/wp-content/uploads/2016/10/tcp-segment.png)  
-        - **phi kết nối (connectionless)**, *ví dụ UDP*  
-                  - UDP (User Datagram Protocol) là một giao thức truyền tải connectionless điển hình. Một giao thức connectionless sẽ không thực hiện thao tác xây dựng kết nối trước khi truyền dữ liệu mà thực hiện truyền ngay lập tức khi có dữ liệu cần truyền (gọi là kiểu truyền best effort – truyền tổng lực). Ngoài ra phương thức truyền connectionless cũng không sử dụng các phương pháp đảm bảo độ tin cậy như báo cáo nhận hay điều khiển luồng (flow control). Connectionless không thực hiện các biện pháp đánh số thứ tự cho các đơn vị dữ liệu được truyền…  
+ - **phi kết nối (connectionless)**, *ví dụ UDP*  
+              - UDP (User Datagram Protocol) là một giao thức truyền tải connectionless điển hình. Một giao thức connectionless sẽ không thực hiện thao tác xây dựng kết nối trước khi truyền dữ liệu mà thực hiện truyền ngay lập tức khi có dữ liệu cần truyền (gọi là kiểu truyền best effort – truyền tổng lực). Ngoài ra phương thức truyền connectionless cũng không sử dụng các phương pháp đảm bảo độ tin cậy như báo cáo nhận hay điều khiển luồng (flow control). Connectionless không thực hiện các biện pháp đánh số thứ tự cho các đơn vị dữ liệu được truyền…  
        ![img](https://www.adminvietnam.org/wp-content/uploads/2016/10/udp-datagram.png)  
          
 ----  
