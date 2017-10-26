@@ -16,7 +16,7 @@ Tên Bài: Chức năng của tầng Transport
  Tên Bài: Quy trình bắt tay 3 bước (three way - handshake) trong tầng Transport  
  ----  
  ### 1.Quy trình bắt tay 3 bước (three way - handshake) trong tầng Transport?  
-  -**TCP thiết lập kết nối bằng 3 bước bắt tay (3-way handshake)**
+  - **TCP thiết lập kết nối bằng 3 bước bắt tay (3-way handshake)**
 
 |sender              |  receiver                     |
 |--------------------|-------------------------------|
